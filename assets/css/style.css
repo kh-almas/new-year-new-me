@@ -1,0 +1,234 @@
+/* common style */
+
+h1, p, *{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #FFFFFF;
+    max-width: 1319px;
+    margin: auto;
+}
+
+section, footer{
+    margin-top: 130px;
+}
+
+.section_title{
+    font-size: 40px;
+}
+
+.section_parag{
+    font-size: 18px;
+    color: #777575;
+    margin: 20px 0 40px 0;
+}
+
+.text_center{
+    text-align: center;
+}
+
+/* header style start */
+
+.hero{
+    background: url('../images/banner/banner2.png');
+    background-position: center left;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.hero_text{
+    width: 500px;
+    text-align: end;
+    padding: 0 120px;
+}
+
+.hero_text h1{
+    font-size: 65px;
+}
+
+.hero_text p{
+    line-height: 26px;
+    margin-top: 24px;
+}
+
+.hero_text button{
+    margin-top: 32px;
+    width: 120px;
+    height: 44px;
+    background-color: #F15B22;
+    color: #FFFFFF;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* failures of previous year */
+
+.prev_year{
+    max-width: 1072px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.prev_year_img img{
+    width: 570px;
+}
+
+.prev_year_content{
+    margin-left: 20px;
+    max-width: 416px;
+}
+
+.prev_year_content h2{
+    font-weight: 700;
+    font-size: 40px;
+
+}
+
+.prev_year_content_p{
+    color: #5B5A5A;
+    margin-top: 30px;
+    line-height: 22px;
+}
+
+.prev_year_cont_list{
+    margin: 20px 0 0 0;
+}
+
+.prev_year_cont_item{
+    display: flex;
+    margin-top: 8px;
+}
+
+.prev_year_cont_item p{
+    margin-left: 10px;
+    color: #5B5A5A;
+}
+
+.prev_year_cont_item i{
+    color: #0C8CE9;
+}
+
+
+/* My Plan */
+
+.plans{
+    text-align: center;
+}
+
+.plans h2{
+    font-size: 40px;
+
+}
+
+.plan_item{
+    display: flex;
+    justify-content: center;
+}
+
+.plan_item_details{
+    padding: 30px 70px;
+    margin-right: 20px;
+}
+
+.plan_item_details img{
+    width: 60px;
+}
+
+.plan_item_details h4{
+    font-size: 20px;
+}
+
+/* positive mindset */
+
+.posi_mind{
+    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%),url('../images/watch.png');
+    max-width: 800px;
+    padding: 40px 50px;
+    margin: auto;
+    border-radius: 8px;
+}
+
+.posi_mind h2{
+    font-size: 35px;
+    color: white;
+}
+
+.posi_mind button{
+    padding: 10px 32px;
+    background-color: #ffffff;
+    border: 0;
+    border-radius:5px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+/* footer */
+
+.footer{
+    background-color: #151414;
+    color: #FFFFFF;
+    
+}
+
+.foo_content{
+    display: flex;
+    gap: 200px;
+    width: 1000px;
+    margin: auto;
+    padding: 80px 0;
+}
+
+.left_footer{
+    max-width: 485px;
+}
+
+.left_footer h2{
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.my_info{
+    margin: 15px 0;
+}
+
+.my_info p{
+    margin-bottom: 10px;
+}
+
+.footer_icon img{
+    margin-right: 15px;
+    width: 30px;
+    cursor: pointer;
+}
+
+.right_footer h2{
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.right_footer input{
+    margin-bottom: 15px;
+    width: 240px;
+    height: 25px;
+    background-color: #151414;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    padding: 3px;
+    border-radius: 3px;
+}
+
+.right_footer button{
+    padding: 9px 22px;
+    background-color: #ffffff;
+    border: 0;
+    border-radius:5px;
+    cursor: pointer;
+}
